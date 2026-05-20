@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage[12pt]{extsizes}
+\usepackage{indentfirst}
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+\usepackage[russian]{babel}
+
+\begin{document}
+
+\section*{Вариант 3}
+
+Графы $(G(U(t), E(t), Q(t))_{R^*})_i$, $i = 1, \dots, 3,$ формируются по следующим правилам.
+
+\begin{enumerate}
+
+\item Построить матрицы 
+$\|D_a^{R_1}\| = \|d_{aa}^{R_1}\|,$ 
+$\|D_b^{R_2}\| = \|d_{bb}^{R_2}\|,$ 
+$\|D_c^{R_3}\| = \|d_{cc}^{R_3}\|$ 
+таким образом, чтобы
+
+\begin{equation}
+d_{ij}^{R^k} =
+\begin{cases}
+1, & \text{если } S_i R_k S_j,\; S_i, S_j \in B_1;\; k = 1, \dots, 3; \\
+0, & \text{если } S_i R_k S_j,\; S_i, S_j \in B_1, \text{ не выполняется},
+\end{cases}
+\end{equation}
+
+где $a, b, c$ "--- известные константы.
+
+\item Из оставшихся элементов $\{S\}_1^{R_j}$, $j = 1, \dots, 3,$
+каждой матрицы построить квадратные матрицы 
+$\|E_{R_j}\|_j = \|e_{R_j R_j}\|_j,$ $j = 1, \dots, 3,$ таким образом, чтобы
+
+\begin{equation}
+e_{iv} =
+\begin{cases}
+1, & \text{если } S_i R_j S_v,\; j = 1, \dots, 3, \\
+0, & \text{в остальных случаях}.
+\end{cases}
+\end{equation}
+
+\end{enumerate}
+
+\end{document}
