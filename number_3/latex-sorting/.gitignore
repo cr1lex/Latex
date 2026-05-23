@@ -1,0 +1,29 @@
+# LaTeX временные файлы
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.idx
+*.ilg
+*.ind
+*.nav
+*.snm
+*.vrb
+*.pyg
+
+# minted кэш
+_minted-*/
+
+# Результаты сборки
+*.pdf
+
+# Системные файлы
+.DS_Store
+Thumbs.db

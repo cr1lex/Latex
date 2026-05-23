@@ -1,0 +1,36 @@
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{graphicx}
+\usepackage[sort,compress]{cite}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{fancyvrb}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{minted}
+\usepackage{tempora}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+
+% Настройки minted для C++
+\setminted[cpp]{
+    frame=lines,
+    framesep=2mm,
+    baselinestretch=1.2,
+    fontsize=\small,
+    linenos,
+    breaklines=true
+}
+
+% Настройки minted для текстового вывода
+\setminted[text]{
+    frame=lines,
+    framesep=2mm,
+    fontsize=\small,
+    breaklines=true
+}
+
+% Красивые номера строк в minted
+\renewcommand\theFancyVerbLine{\small\arabic{FancyVerbLine}}
